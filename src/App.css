@@ -1,0 +1,494 @@
+/* header css */
+
+.header {
+  position: relative;
+  z-index: 10;
+  top: 0;
+  left: 0;
+
+  background: transparent;
+}
+.header {
+  position: relative;
+  z-index: 10;
+  top: 0;
+  left: 0;
+
+  background: transparent;
+}
+.container {
+  max-width: 122.5rem;
+  margin: 0 auto;
+  padding: 0 7rem;
+  background: transparent;
+}
+/* .heroL{
+ 
+  
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .nav {
+  height: 7.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+} */
+
+.menu-toggle {
+  position: absolute;
+  top: 50%;
+
+  cursor: pointer;
+  z-index: 1500;
+}
+
+.animationUp{
+  opacity: 0;
+  animation: fadeUp 0.7s forwards; 
+
+}
+
+.line{
+  margin-top: -1rem;
+  font-size: 2rem;
+  color: #000;
+}
+.search{
+  width: 22px;
+  margin-left: -1.6rem;
+}
+.logo {
+  
+  width: 2rem;
+  
+ 
+  z-index: 10;
+}
+.logoH {
+  margin-top: 4rem;
+  width: 6rem;
+  
+ 
+ 
+}
+.log{
+  
+  width: 4.3rem;
+  margin: 0 5px;
+  
+  
+ 
+ 
+}
+.no-border{
+  border-bottom: 2px solid #8a8a8a;
+ 
+  
+}
+/* .nav {
+  justify-content: space-between;
+ 
+
+} */
+.donnees{
+  text-align: left;
+  font-size: 13px;
+  font-family: reg;
+  margin-bottom: 1rem;
+  
+
+}
+.donContainer{
+  padding: 6rem 3rem;
+}
+/* .nav-list {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+
+  text-transform: uppercase;
+
+  list-style: none;
+  position: initial;
+  width: initial;
+  height: initial;
+  background-color: transparent;
+  padding: 0;
+  margin-top: 7px;
+  justify-content: initial;
+  flex-direction: row;
+  transform: initial;
+  transition: initial;
+  
+  color:#8a8a8a;
+ 
+  
+} */
+/* .nav-item {
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-family: med;
+  color:#8a8a8a;
+  padding: 0 1px;
+  padding-bottom: 4px;
+  text-decoration: none;
+
+ 
+}
+
+.navlinks {
+  display: flex;
+  align-items: center; 
+} */
+
+
+.colorW {
+  color: rgba(255, 255, 255, 0.733);
+  border: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.colorB {
+  color:#8a8a8a;
+  border: none;
+  font-size: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.btn1 {
+  background-color: #8a8a8a;
+  margin-right: 1rem;
+  
+  
+}
+.btn3 {
+  background-color: #fff;
+  width: 16rem;
+  text-decoration: none;
+  font-size: 10px;
+  
+  text-transform: uppercase;
+  
+  color: #8a8a8a;
+  font-weight: 900;
+  position: relative;
+  transition: color 0.5s;
+  border: 1px solid #8a8a8a;
+  margin-top: 40px;
+  padding: 13px 1rem;
+  
+  display: inline-block;
+  font-family: reg;
+  
+
+  letter-spacing: 3px;
+  
+}
+.loginElm{
+  margin-top: 1rem;
+}
+.btn4 {
+  background-color: #fff;
+  width: 16rem;
+  text-decoration: none;
+  font-size: 10px;
+  
+  text-transform: uppercase;
+  
+  color: #5fe0a2;
+  font-weight: 900;
+  position: relative;
+  
+  border: 1px solid #5fe0a2;
+  margin-top: 34px;
+  padding: 13px 1rem;
+  
+  display: inline-block;
+  font-family: reg;
+  
+
+  letter-spacing: 3px;
+  
+  
+  
+}
+.btn3:hover{
+  background-color: #000;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.btn4:hover{
+  background-color: #000;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.btn2 {
+  background-color: #5fe0a2;
+  margin-left: 1rem;
+  
+  
+}
+.single-animation{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+
+.buttons{
+  opacity: 0;
+  animation: fadeDown 0.7s forwards;
+  animation-delay: 1.2s;
+}
+.cta-btn {
+  text-decoration: none;
+  font-size: 0.5rem;
+  font-family: reg;
+  text-transform: uppercase;
+  
+  color: #fff;
+  font-weight: 900;
+  position: relative;
+  transition: color 0.5s;
+  border: 1px solid transparent;
+  margin-top: 30px;
+  padding: 13px 1rem;
+  
+  display: inline-block;
+  font-family: reg;
+  width: 15rem;
+
+  letter-spacing: 3px;
+  
+}
+.inline{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-btn:hover{
+  background-color: #000;
+}
+@keyframes fadeUp {
+  0% {
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeDown {
+  0% {
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel] {
+  height: 3.5rem;
+  width: 16rem;
+  border: none;
+  font-family: reg;
+  border-bottom: 1px solid #000;
+}
+/* .root {
+  min-width: 275px;
+  max-width: 300px; /* Example: setting max-width 
+  color: rgb(46, 14, 88);
+  background-color: rgb(69, 15, 113);
+} */
+.root {
+  min-width: 275px;
+  max-width: 400px; /* Adjust width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #723e3e; /* Light background color */
+  transition: transform 0.3s ease; /* Smooth transform on hover */
+  width: 350px; /* Increased width */
+  height: auto; /* Adjust height as needed */
+  margin: 20px; 
+}
+
+.CardActions {
+  display: flex;
+  justify-content: center; /* Center the button */
+  padding: 1rem;
+  background-color: blueviolet;
+}
+.CardContent {
+  color: rgb(46, 14, 88); /* Dark text for readability */
+}
+
+.bullet {
+  display: inline-block;
+  margin: 0 2px;
+  transform: scale(0.8);
+}
+
+
+
+.pos {
+  margin-bottom: 12px;
+}
+.cards-container {
+  display: flex;         /* Enable flexbox */
+  justify-content: center; /* Center the items horizontally */
+   /* Center the items vertically */
+  gap: 20px;             /* Add some space between the cards */
+  color: rgb(46, 14, 88);
+  margin-bottom: 50px;
+ 
+}
+
+/* .navlinks {
+  margin-left: 50px; 
+  display: flex;
+} */
+
+.logo {
+  flex-grow: 1;
+  cursor: pointer;
+  color: rgb(46, 14, 88);
+}
+
+.MuiAppBar-root {
+  background-color: white !important;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); /* Add shadow to the navbar */
+}
+
+/* Link Styles */
+.link {
+  text-decoration: none;
+  color:rgb(46, 14, 88); /* Change text color to violet */
+  font-size: 20px;
+
+  margin-left: 20px;  /* Reduce space between links */
+  display: flex;
+  align-items: center;
+}
+
+.link:hover {
+  color: rgb(137, 61, 205); /* Modify if you want to change hover color */
+  border-bottom: 1px solid rgb(106, 30, 142); /* Change hover underline to violet */
+}
+.hero{
+  background: radial-gradient(77.36% 256.97% at 77.36% 57.52%, 100%); 
+  clip-path: ellipse(150% 87% at 93% 13%);}
+  .home-section {
+    background-image: url('/Users/mac/Desktop/Transfert_National_Front/src/images/52c82244-7d5c-48ad-8cfd-9aecda2d1793.webp');
+    background: radial-gradient(77.36% 256.97% at 77.36% 57.52%, 100%); 
+    clip-path: ellipse(150% 87% at 93% 13%);
+    background-position: center center; /* Center the image perfectly */
+    background-size: cover; /* Ensure it covers the full section */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    color: rgb(46, 14, 88);
+    padding: 100px 0; /* Adjust padding as needed */
+    width: 100%; /* Ensure the width is 100% */
+    height: 80vh; /* You can adjust the height as needed */
+  }
+  .Toolbar {
+    display: flex;
+    justify-content: space-between; /* This will push the navlinks to the right */
+    align-items: center; /* This will align the items vertically at the center */
+  }
+  .Toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navlinks {
+    display: flex;
+    align-items:flex-end;
+    margin-left: 63%;
+    /* other styles */
+  }
+  h1{
+  color: rgb(46, 14, 88); /* Dark text color for the heading */
+  margin-bottom: 16px; /* Space below the heading */
+  padding-bottom: 16px; /* Padding below the heading */
+  border-bottom: 2px solid rgb(46, 14, 88); /* Light grey bottom border */
+  text-align: center; /* Center-align the text */
+  max-width: 1000px; /* Maximum width */
+  margin:auto; /* Center align the container */
+  padding: 20px; /* Padding around the content */
+  }
+  .form {
+    max-width: 330px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(226, 215, 240);
+    padding: 20px;
+    margin-top: 30px;
+    color: #fff;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form .form__custom-button {
+    margin-top: 50px;
+    background-color: rgb(46, 14, 88); /* Sets the background to violet */
+    color: white; /* Sets the text color to white */
+    border: none; /* Removes the border */
+    padding: 10px 20px; /* Adds some padding around the text */
+    text-transform: uppercase; /* Optional: transforms text to uppercase */
+    font-weight: bold; /* Optional: makes the font bold */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    border-radius: 5px; /* Optional: rounds the corners of the button */
+    transition: background-color 0.3s ease; /* Optional: adds a transition effect */
+  }
+  .white-label {
+    color: rgb(46, 14, 88);
+  }
+  /* Styles for the About section container */
+
+
+/* Styles for the paragraph */
+#about p {
+  color: #333; /* Darker grey for better readability */
+  font-size: 18px; /* Larger font size */
+  line-height: 1.8; /* Increased line height */
+  text-align: justify;
+  max-width: 1000px; /* Maximum width for the paragraph */
+  margin: auto; /* Center the paragraph */
+  padding: 20px; /* More padding around the text */
+  background-color: #f9f9f9; /* Light background color for the text area */
+}
+.Button {
+  background-color: #0056b3; /* Primary button color */
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+  background-color: #003d82; /* Darker shade on hover */
+}
+.headline, .headline1, .title, #about h1 {
+  color: rgb(46, 14, 88);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#about {
+  margin-top: 50px; /* Space above the About section */
+  /* Other styles remain the same */
+}
+.oho{
+  flex: 0 1 30%; /* Sets the basis to 20% and allows the cards to shrink but not to grow */
+  margin: 10px;
+}
