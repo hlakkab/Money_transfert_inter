@@ -8,8 +8,8 @@ import Typography from '@material-ui/core/Typography';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import './App.css'; 
-import transfertImage from '/Users/mac/Desktop/Transfert_National_Front/src/images/59ab7d81-5bcb-4711-87ea-0d464e97d593.webp';
-import trans2 from '/Users/mac/Desktop/Transfert_National_Front/src/images/b624efbf-4ec3-4a3c-b84f-a9508c350e7d.webp'
+import transfertImage from './images/59ab7d81-5bcb-4711-87ea-0d464e97d593.webp';
+import trans2 from './images/b624efbf-4ec3-4a3c-b84f-a9508c350e7d.webp'
 function Home() {
 
   const bull = <span className="bullet">•</span>;

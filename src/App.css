@@ -386,7 +386,7 @@
   background: radial-gradient(77.36% 256.97% at 77.36% 57.52%, 100%); 
   clip-path: ellipse(150% 87% at 93% 13%);}
   .home-section {
-    background-image: url('/Users/mac/Desktop/Transfert_National_Front/src/images/52c82244-7d5c-48ad-8cfd-9aecda2d1793.webp');
+    background-image: url('./images/52c82244-7d5c-48ad-8cfd-9aecda2d1793.webp');
     background: radial-gradient(77.36% 256.97% at 77.36% 57.52%, 100%); 
     clip-path: ellipse(150% 87% at 93% 13%);
     background-position: center center; /* Center the image perfectly */
