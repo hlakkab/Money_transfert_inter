@@ -40,43 +40,47 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-function Check() {
+function Check({ donneurData, beneficiaires, montantTransaction }) {
     const classes = useStyles();
     const [checked, setChecked] = React.useState(true);
     localStorage.setItem('notify_transfer',JSON.stringify(checked));
 
     return (
-        <div className={classes.root}>
+        <div>
             <Typography variant="h4" component="h2" gutterBottom>
                 Finalisation
             </Typography>
             <Grid container spacing={3}>
                 <Grid item xs={6}>
-                    <Paper className={classes.paper}>
+                    <Paper>
                         <Typography variant="h6" component="h3">
                             Données du donneur
                         </Typography>
-                        <p>Nom: Salah</p>
-                        <p>Email: Salah@gmail.com</p>
+                        <p>Nom et Prénom: {donneurData.sender_fname} {donneurData.sender_lname}</p>
+                        <p>Numero de Telephone: {donneurData.sender_phnumber}</p>
                         {/* Ajoutez d'autres champs si nécessaire */}
                     </Paper>
                 </Grid>
                 <Grid item xs={6}>
-                    <Paper className={classes.paper}>
+                    <Paper>
                         <Typography variant="h6" component="h3">
-                            Données de l'utilisateur
+                            Données de Bénéficiaires
                         </Typography>
-                        <p>Nom: Sami</p>
-                        <p>Email: Sami@gmail.com</p>
-                        {/* Ajoutez d'autres champs si nécessaire */}
+                        {beneficiaires.map((beneficiaire, index) => (
+                            <div key={index}>
+                                <p>Nom et Prénom : {beneficiaire.receiver_fname} {beneficiaire.receiver_lname}</p>
+                                <p>Numero de Telephone: {beneficiaire.receiver_phnumber}</p>
+                                {/* Ajoutez d'autres champs si nécessaire */}
+                            </div>
+                        ))}
                     </Paper>
                 </Grid>
                 <Grid item xs={12}>
-                    <Paper className={classes.paper}>
+                    <Paper>
                         <Typography variant="h6" component="h3">
                             Montants
                         </Typography>
-                        <p>Montant du transfert: 1000</p>
+                        <p>Montant du transfert: {donneurData.total_amount}</p>
                         <p>Frais: 10</p>
                         {/* Ajoutez d'autres champs si nécessaire */}
                     </Paper>
