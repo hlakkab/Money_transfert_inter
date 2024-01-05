@@ -1,7 +1,7 @@
 import React,{useEffect,useState, useRef} from 'react'
 import {Link,NavLink} from "react-router-dom"
 import { makeStyles } from '@material-ui/core/styles';
-import logo from '/Users/mac/Desktop/Transfert_National_Front/src/images/logo.webp'
+import logo from './images/logo.webp'
 import { useParams,useNavigate} from 'react-router-dom';
 
 

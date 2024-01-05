@@ -386,7 +386,7 @@
   background: radial-gradient(77.36% 256.97% at 77.36% 57.52%, 100%); 
   clip-path: ellipse(150% 87% at 93% 13%);}
   .home-section {
-    background-image: url('/Users/mac/Desktop/Transfert_National_Front/src/images/52c82244-7d5c-48ad-8cfd-9aecda2d1793.webp');
+    background-image: url('./images/52c82244-7d5c-48ad-8cfd-9aecda2d1793.webp');
     background: radial-gradient(77.36% 256.97% at 77.36% 57.52%, 100%); 
     clip-path: ellipse(150% 87% at 93% 13%);
     background-position: center center; /* Center the image perfectly */
@@ -491,4 +491,116 @@
 .oho{
   flex: 0 1 30%; /* Sets the basis to 20% and allows the cards to shrink but not to grow */
   margin: 10px;
+}
+/* Blacklist.css */
+ /* App.css */
+
+.blacklist-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  color: #6a1b9a;
+  text-align: center;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #6a1b9a;
+  color: #fff;
+}
+
+.input-edit {
+  width: 80%;
+}
+
+.button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #6a1b9a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+button:hover {
+  background-color: #4a148c;
+}
+/* Ajoutez ces styles à votre fichier App.css ou à un fichier dédié */
+
+.form-container {
+  margin-bottom: 20px;
+   padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.cancel-btn {
+  background-color: #ccc;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-btn,
+.add-btn,
+.edit-btn {
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-btn {
+  background-color: #6a1b9a;
+}
+
+.add-btn {
+  background-color: #6a1b9a;
+}
+
+.edit-btn {
+  background-color: #6a1b9a;
 }

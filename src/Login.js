@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header'
 
 import {DialogActions,Slide, Typography, DialogContent, Dialog, TextField,Grid, Button,DialogContentText, DialogTitle} from '@material-ui/core'
-import logo from '/Users/mac/Desktop/Transfert_National_Front/src/images/logo.webp'
+import logo from './images/logo.webp'
 import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
 import Input from "@material-ui/core/Input";
