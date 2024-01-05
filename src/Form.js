@@ -103,7 +103,7 @@ const Form = () => {
             setsn(don.sender_fname)
             setln(don.sender_lname)
             setpn(don.sender_phnumber)
-            setam(don.total_amount)
+            setam(total)
             
 
         let motif = JSON.parse(localStorage.getItem('motif'))
@@ -118,7 +118,7 @@ const Form = () => {
         console.log('notify_transfer',notify_transfer)
         let finalResult1={id_client,sender_fname,sender_lname,sender_phnumber,total_amount,total_expense_amount,expense_id,motif,notify_transfer,transfers}
         setFinalResult(finalResult1)
-        console.log(finalResult)
+        console.log(finalResult)    
         setDisable(JSON.parse(localStorage.getItem('button-state')))
 
 
@@ -161,7 +161,7 @@ const Form = () => {
                 
               
                 
-                    return <Check />;
+                return <Check donneurData={finalResult} beneficiaires={transfers} montantTransaction={total_amount} />;
                 
 
                 

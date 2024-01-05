@@ -3,7 +3,7 @@ import React, { Component, useState, useEffect,useCallback } from 'react'
 
 
 import { useHistory } from "react-router-dom"
-import logo from '/Users/mac/Desktop/Transfert_National_Front/src/images/logo.webp'
+import logo from './images/logo.webp'
 import {
   AppBar,
   Toolbar,
