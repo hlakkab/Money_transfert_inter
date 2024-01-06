@@ -514,8 +514,11 @@ th, td {
 }
 
 th {
+
+  color: rgb(46, 14, 88);
   background-color: rgb(226, 215, 240);
-  color: rgb(46, 14, 88);;
+
+
 }
 
 

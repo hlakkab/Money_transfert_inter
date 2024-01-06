@@ -20,8 +20,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/blacklist" element={<Blacklist />} />
-        <Route path="/form1" element={<Form />} />
-        <Route path="/form2" element={<Form1 />} />
+        <Route path="/formA" element={<Form />} />
+        <Route path="/formB" element={<Form1 />} />
 
         <Route path="/home" element={<Home />} />
         <Route path="/backOffice" element={<HomeB />} />
