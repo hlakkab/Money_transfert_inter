@@ -15,7 +15,7 @@ import classNames from "classnames";
 
 
 
-import {login} from './Service';
+import {loginb} from './Service';
 
 
 const Transition = React.forwardRef(function Transition(props, ref) {
@@ -72,7 +72,7 @@ const LoginnBack = (props)=> {
       password
     }
     console.log(item)
-    login(item).then(function (response) {
+    loginb(item).then(function (response) {
         
                 
                    

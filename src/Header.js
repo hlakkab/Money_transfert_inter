@@ -44,7 +44,7 @@ const Header = () => {
             EasyMT
           </Link>
         <div className="navlinks" style={{font:'aria'}}>
-          <Link to="/" className="link">
+          <Link to="/home" className="link">
           <HomeRoundedIcon style={{ marginRight: '5px' }} /> Home 
           </Link>
           <Link to="/blacklist" className="link">
