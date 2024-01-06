@@ -104,7 +104,8 @@ console.log(response)
   
   const classes = useStyles();
 
-  return( <div>
+  return( 
+  <div>
     <Header />
     <br/>
     <br/>
@@ -146,7 +147,7 @@ console.log(response)
           
             {list.map(li => (
                <TableRow>
-               <TableCell component="th" scope="row" style="background-color: rgb(46, 14, 88)" >
+               <TableCell component="th1" scope="row"  >
                {li.created_at}
                 </TableCell>
                 <TableCell align="left"> {li.sender_fname} </TableCell>

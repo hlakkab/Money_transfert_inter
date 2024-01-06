@@ -80,7 +80,7 @@ const Loginn = (props)=> {
                            
                 
         console.log(response);
-        history("/")
+        history("/home")
 
     })
     .catch(function (response) {
