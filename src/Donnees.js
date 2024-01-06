@@ -34,8 +34,8 @@ const Donnees = () => {
   const clients = [
     { id_client: '2',
      expense_id: '2',
-      sender_fname: 'meriem',
-      sender_lname:'beriane',
+      sender_fname: 'Jalila',
+      sender_lname:'Zaid',
       sender_phnumber:'0611022644',
       total_amount:'700',
       

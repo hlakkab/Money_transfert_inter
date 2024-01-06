@@ -525,8 +525,8 @@ th, td {
 }
 
 th {
-  background-color: #6a1b9a;
-  color: #fff;
+  color: rgb(46, 14, 88);
+  background-color: rgb(226, 215, 240);
 }
 
 .input-edit {
