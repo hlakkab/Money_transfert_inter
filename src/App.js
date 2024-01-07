@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import Home from './Home';
 import HomeB from './HomeB';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Form from './Form';
 import Form1 from './Form1';
 import Login from './Login';
